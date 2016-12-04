@@ -1,0 +1,66 @@
+html,
+body,
+div,
+h1,
+ul,
+li,
+p,
+a,
+img,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+}
+
+    body #wrapper {
+        width: 960px;
+    }
+.menu {
+    list-style-type: none;
+	display:inline-block;
+	margin-top: 5px;
+
+}
+.menu li h3{
+	color: #ffffff;
+}
+.menu li{
+   float: left;
+   margin-left: 5px;
+	border: 20px solid #808080;
+    margin: 5px;
+	height:180px;
+	width: 180px;
+	text-align: center;
+    background: #747474; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#747474, #FEFEFE); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#747474, #FEFEFE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#747474, #FEFEFE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#747474, #FEFEFE); /* Standard syntax */
+}
+.menu li .image-container img{
+	height: 100px;
+	width: 120px;
+	border-radius: 20px;
+}
+
+.click-here {
+	display: none;
+
+}
+.menu li:hover{
+	background:gray;
+	border: 20px solid #454545;
+}
+.menu :hover .click-here{
+	display: block;
+	text-transform: uppercase;
+}
+.menu:hover .subtitle{
+	display: none;
+}
